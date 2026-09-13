@@ -18,10 +18,10 @@
   </div>
 
   <section class="space-y-2">
-    <div>
-      <img src="/images/icon-search.svg" alt="">
-      <input type="search" name="" id="" placeholder="Search for a place" class="w-full bg-neutral-600">
+    <div class="flex bg-neutral-600 py-2.5 px-6 gap-4 rounded-lg">
+      <img src="/images/icon-search.svg" alt="icon-search">
+      <input type="search" name="" id="" placeholder="Search for a place" class="w-full outline-0">
     </div>
-    <button type="submit" aria-label="search" class="bg-blue-500 w-full text-white">Search</button>
+    <button type="submit" aria-label="search" class="bg-blue-500 w-full text-white rounded-lg py-2.5 font-dmsans hover:bg-blue-700 hover:ease-in-out hover:duration-100 cursor-pointer active:scale-98 active:border-2 active:border-blue-500/50">Search</button>
   </section>
 </template>
