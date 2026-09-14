@@ -1,15 +1,17 @@
 <script setup lang="ts">
-import WeatherCard from './components/WeatherCard.vue';
-import WeatherSearchScreen from './components/WeatherSearchScreen.vue';
-import TemplateWeatherApp from './template/TemplateWeatherApp.vue';
-
-
+import DailyForecast from "./components/DailyForecast.vue";
+import HourlyForecast from "./components/HourlyForecast.vue";
+import WeatherCard from "./components/WeatherCard.vue";
+import WeatherSearchScreen from "./components/WeatherSearchScreen.vue";
+import TemplateWeatherApp from "./template/TemplateWeatherApp.vue";
 </script>
 
 <template>
   <TemplateWeatherApp>
-    <WeatherSearchScreen/>
-    <WeatherCard/>
+    <WeatherSearchScreen />
+    <WeatherCard />
+    <DailyForecast />
+    <HourlyForecast />
   </TemplateWeatherApp>
 </template>
 
