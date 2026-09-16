@@ -1,5 +1,24 @@
 <template>
-  <div class="p-4 bg-neutral-900 space-y-6 font-dmsans lg:grid">
+  <main class="p-4 bg-neutral-900 space-y-6 font-dmsans  templateweather">
     <slot/>
-  </div>
+  </main>
 </template>
+
+
+<style >
+
+@media screen and (min-width: 1024px) {
+  .templateweather{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 1.5rem;
+    grid-template-areas: 
+      "search search"
+      "card hourly"
+      "daily hourly"
+    ;
+  }
+
+}
+</style>

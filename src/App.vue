@@ -8,11 +8,30 @@ import TemplateWeatherApp from "./template/TemplateWeatherApp.vue";
 
 <template>
   <TemplateWeatherApp>
-    <WeatherSearchScreen />
-    <WeatherCard />
-    <DailyForecast />
-    <HourlyForecast />
+    <WeatherSearchScreen class="area-search" />
+    <WeatherCard class="area-card" />
+    <DailyForecast class="area-daily" />
+    <HourlyForecast class="area-hourly" />
   </TemplateWeatherApp>
 </template>
 
-<style scoped></style>
+
+<style>
+@media screen and (min-width:1024px) {
+  .area-search{
+    grid-area: search;
+  }
+
+  .area-card{
+    grid-area: card;
+  }
+
+  .area-daily{
+    grid-area: daily;
+  }
+
+  .area-hourly{
+    grid-area: hourly;
+  }
+}
+</style>

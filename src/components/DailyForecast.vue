@@ -1,7 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h5 class="text-white font-semibold">Daily forecast</h5>
+  <div class="space-y-3">
+    <h5 class="text-white font-semibold">Daily forecast</h5>
 
   <section class="grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] gap-3">
     <div class="text-white bg-neutral-700  flex items-center flex-col px-1 py-2.5 gap-0.5  rounded-lg">
@@ -72,4 +73,6 @@
     </div>
     
   </section>
+  </div>
+  
 </template>

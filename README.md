@@ -1,7 +1,9 @@
 # Tech
 - vue
 - tailwind
-- 
+
+# Notes 
+1. Using grid template areas with css on TemplateWeatherApp.vue
 
 ## Project Setup
 
