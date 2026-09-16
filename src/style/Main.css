@@ -17,4 +17,7 @@
 
   --font-dmsans: "DM Sans", sans-serif;
   --font-bricolage: "Bricolage Grotesque", sans-serif;
+
+  --breakpoint-resone:22.75rem;
+  --breakpoint-notenine: 25.875rem;
 }

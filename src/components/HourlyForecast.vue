@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="bg-neutral-800 py-4 px-3 rounded-lg space-y-4 font-dmsans">
+  <section class="bg-neutral-800 py-4 px-3 rounded-lg space-y-4 ">
     <div class="flex justify-between text-white font-semibold items-center">
       <h3>Hourly forecast</h3>
       <div

@@ -2,7 +2,7 @@
 
 <template>
   <section
-    class="bg-[url(/images/bg-today-small.svg)] bg-center bg-no-repeat bg-size-[100%_100vh] flex items-center flex-col p-11"
+    class="bg-[url(/images/bg-today-small.svg)] resone:rounded-xl sm:bg-[url(/images/bg-today-large.svg)] bg-center bg-no-repeat bg-size-[100%_100vh] flex items-center flex-col p-11"
   >
     <div class="text-center space-y-2">
       <h1 class="text-3xl text-white font-semibold">Berlin, Germany</h1>
@@ -11,7 +11,7 @@
 
     <div class="flex items-center gap-4">
       <img src="/images/icon-sunny.webp" alt="icon-sunny" class="w-30" />
-      <h1 class="text-white text-[5rem] font-semibold italic font-dmsans">
+      <h1 class="text-white text-[5rem] font-semibold italic">
         20°
       </h1>
     </div>
