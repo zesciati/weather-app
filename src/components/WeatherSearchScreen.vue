@@ -11,15 +11,15 @@
       </div>
     </section>
 
-    <section class="flex justify-center items-center text-center my-10">
+    <section class="flex justify-center items-center text-center my-10 md:py-6">
       <h1 class="text-white text-6xl font-bricolage">
         How's the sky looking today?
       </h1>
     </section>
 
-    <section class="space-y-2">
-      <div class="flex bg-neutral-600 py-2.5 px-6 gap-4 rounded-lg">
-        <img src="/images/icon-search.svg" alt="icon-search">
+    <section class="space-y-2 sm:grid sm:grid-cols-[2fr_1fr] sm:gap-4 sm:max-w-fit sm:mx-auto md:grid-cols-[25rem_10rem]">
+      <div class="sm:min-h-full flex bg-neutral-600 py-2.5 px-6 gap-4 rounded-lg">
+        <img src="/images/icon-search.svg" alt="icon-search" class="">
         <input type="search" name="" id="" placeholder="Search for a place" class="w-full outline-0 text-white">
       </div>
       <button type="submit" aria-label="search" class="bg-blue-500 w-full text-white rounded-lg py-2.5  hover:bg-blue-700 hover:ease-in-out hover:duration-100 cursor-pointer active:scale-98 active:border-2 active:border-blue-500/50">Search</button>

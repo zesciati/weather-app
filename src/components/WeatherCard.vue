@@ -1,11 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
+  <div class="space-y-3 sm:space-y-2">
 
 
     <section
-      class="bg-[url(/images/bg-today-small.svg)] resone:rounded-xl sm:bg-[url(/images/bg-today-large.svg)] bg-center bg-no-repeat bg-size-[100%_100vh] flex items-center flex-col p-11 "
+      class="bg-[url(/images/bg-today-small.svg)] resone:rounded-xl sm:bg-[url(/images/bg-today-large.svg)] bg-center bg-no-repeat bg-size-[100%_100vh]  flex items-center flex-col sm:flex-row sm:justify-between p-11 "
     >
       <div class="text-center space-y-2">
         <h1 class="text-3xl text-white font-semibold">Berlin, Germany</h1>
