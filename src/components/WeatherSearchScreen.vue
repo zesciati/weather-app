@@ -2,14 +2,17 @@
 
 <template>
   <nav>
-    <section class="flex justify-between">
+    <section class="flex justify-between group">
       <img src="/images/logo.svg" alt="logo-weather-now" class="w-35" />
-      <div class="flex bg-neutral-600 px-2 py-1 gap-2 rounded-lg">
+      <button class="flex bg-neutral-600 px-2 py-1 gap-2 rounded-lg cursor-pointer ">
         <img src="/images/icon-units.svg" alt="icon-units" class="w-4" />
         <p class="text-white">Units</p>
-        <img src="/images/icon-dropdown.svg" alt="icon-units" class="w-3" />
-      </div>
+        <img src="/images/icon-dropdown.svg" alt="icon-units" class="max-w-3 duration-200 group-hover:rotate-180" />
+      </button>
     </section>
+    
+
+    
 
     <section class="flex justify-center items-center text-center my-10 md:py-6">
       <h1 class="text-white text-6xl font-bricolage">
