@@ -4,6 +4,7 @@
 
 # Notes 
 1. Using grid template areas with css on TemplateWeatherApp.vue
+2. [Weather App: Interactive Weather Forecast coding challenge solution](https://www.frontendmentor.io/solutions/weather-app-interactive-weather-forecast-wMUMTvUlYL)
 
 ## Project Setup
 
