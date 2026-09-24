@@ -9,14 +9,14 @@ import TemplateWeatherApp from "./template/TemplateWeatherApp.vue";
 </script>
 
 <template>
-  <!-- <TemplateWeatherApp>
+  <TemplateWeatherApp>
     <WeatherSearchScreen class="area-search" />
     <WeatherCard class="area-card" />
     <DailyForecast class="area-daily" />
     <HourlyForecast class="area-hourly" />
-  </TemplateWeatherApp> -->
+  </TemplateWeatherApp>
 
-  <SwitchToImperials/>
+  <!-- <SwitchToImperials/> -->
   <!-- <DayHourlyForecast /> -->
 </template>
 

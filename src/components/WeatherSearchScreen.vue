@@ -1,18 +1,29 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import SwitchToImperials from "./littlecomponents/SwitchToImperials.vue";
+</script>
 
 <template>
   <nav>
-    <section class="flex justify-between group">
+    <section class="flex justify-between items-center">
       <img src="/images/logo.svg" alt="logo-weather-now" class="w-35" />
-      <button class="flex bg-neutral-600 px-2 py-1 gap-2 rounded-lg cursor-pointer ">
-        <img src="/images/icon-units.svg" alt="icon-units" class="w-4" />
-        <p class="text-white">Units</p>
-        <img src="/images/icon-dropdown.svg" alt="icon-units" class="max-w-3 duration-200 group-hover:rotate-180" />
-      </button>
-    </section>
-    
 
-    
+      <div class="dropdown dropdown-end group">
+        <button
+          class="flex bg-neutral-600 px-2 py-1 gap-2 rounded-lg cursor-pointer"
+          tabindex="0"
+          role="button"
+        >
+          <img src="/images/icon-units.svg" alt="icon-units" class="w-4" />
+          <p class="text-white">Units</p>
+          <img
+            src="/images/icon-dropdown.svg"
+            alt="icon-units"
+            class="max-w-3 duration-200 group-hover:rotate-180"
+          />
+        </button>
+        <SwitchToImperials/>
+      </div>
+    </section>
 
     <section class="flex justify-center items-center text-center my-10 md:py-6">
       <h1 class="text-white text-6xl font-bricolage">
@@ -20,12 +31,28 @@
       </h1>
     </section>
 
-    <section class="space-y-2 sm:grid sm:grid-cols-[2fr_1fr] sm:gap-4 sm:max-w-fit sm:mx-auto md:grid-cols-[25rem_10rem]">
-      <div class="sm:min-h-full flex bg-neutral-600 py-2.5 px-6 gap-4 rounded-lg">
-        <img src="/images/icon-search.svg" alt="icon-search" class="">
-        <input type="search" name="" id="" placeholder="Search for a place" class="w-full outline-0 text-white cursor-pointer">
+    <section
+      class="space-y-2 sm:grid sm:grid-cols-[2fr_1fr] sm:gap-4 sm:max-w-fit sm:mx-auto md:grid-cols-[25rem_10rem]"
+    >
+      <div
+        class="sm:min-h-full flex bg-neutral-600 py-2.5 px-6 gap-4 rounded-lg"
+      >
+        <img src="/images/icon-search.svg" alt="icon-search" class="" />
+        <input
+          type="search"
+          name=""
+          id=""
+          placeholder="Search for a place"
+          class="w-full outline-0 text-white cursor-pointer"
+        />
       </div>
-      <button type="submit" aria-label="search" class="bg-blue-500 w-full text-white rounded-lg py-2.5  hover:bg-blue-700 hover:ease-in-out hover:duration-100 cursor-pointer active:scale-98 active:border-2 active:border-blue-500/50">Search</button>
+      <button
+        type="submit"
+        aria-label="search"
+        class="bg-blue-500 w-full text-white rounded-lg py-2.5 hover:bg-blue-700 hover:ease-in-out hover:duration-100 cursor-pointer active:scale-98 active:border-2 active:border-blue-500/50"
+      >
+        Search
+      </button>
     </section>
   </nav>
 </template>
