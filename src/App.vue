@@ -16,8 +16,8 @@ import TemplateWeatherApp from "./template/TemplateWeatherApp.vue";
     <HourlyForecast class="area-hourly" />
   </TemplateWeatherApp> -->
 
-  <!-- <SwitchToImperials/> -->
-  <DayHourlyForecast />
+  <SwitchToImperials/>
+  <!-- <DayHourlyForecast /> -->
 </template>
 
 <style>
